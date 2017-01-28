@@ -7,28 +7,6 @@ body {
   padding-bottom: 20px;
 }
 
-.btn-primary{
-  background-color: #B6262E;  
-}
-
-p {
-  text-align: justify;
-}
-
-.banner {
-  display:block;
-  padding:4px;
-  
-  line-height:1.42857143;
-  background-color:red;
-  border:1px solid #ddd;
-  border-radius:4px;
-  -webkit-transition:border .2s ease-in-out;
-  -o-transition:border .2s ease-in-out;
-  transition:border .2s ease-in-out
-
-}
-
 .navbar-down {
   padding-top: 100px;
   padding-right: 30px;
@@ -37,12 +15,13 @@ p {
 /* Responsive Barra de Navegacion*/
 @media (max-width: 768px) {
   
-  .navbar {
-    background-color: red;
+  .logo {
+    width: 100px;
+    height: 100px;
   }
 
-  .navbar-down {
-    padding: 0px;
+  .navbar-toggle {
+    margin-top: 50px;
   }
 }
 
