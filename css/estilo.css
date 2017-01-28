@@ -21,8 +21,14 @@ body {
   }
 
   .navbar-toggle {
-    margin-top: 50px;
+    margin-top: 50px;    
   }
+
+  .navbar-down {
+    padding: 0px;
+    text-align: center;
+  }
+
 }
 
 #pie {
