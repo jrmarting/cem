@@ -61,7 +61,7 @@ h1 {
   color: #343643;
 }
 
-.fa-thumb-tack {
+.indicador {
   float: left;
   font-size: 30px; 
   padding-right: 20px;
@@ -81,6 +81,19 @@ h1 {
 .informacion {
   text-align: justify;
   font-size: 15px;
+}
+
+.footer img {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+}
+
+.autor {
+  clear: both;
+  text-align: center;
+  padding-top: 10px;
+  border-top: 2px solid #7f052a;
 }
 
 /* Responsive Design*/
@@ -133,12 +146,5 @@ h1 {
     font-size: 10px;
   }
 
-}
-
-#pie {
-	clear: both;
-	text-align: center;
-	padding: 20px;
-	border-top: 2px solid #999999;
 }
 
