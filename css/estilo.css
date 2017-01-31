@@ -7,12 +7,50 @@ body {
   padding-bottom: 20px;
 }
 
-.navbar-down {
-  padding-top: 100px;
-  padding-right: 30px;
+.logo {
+  width: 120px;
+  height: 120px;
 }
 
-/* Responsive Barra de Navegacion*/
+.container {
+  margin-top: 100px;
+  background-color: white;
+}
+
+.navbar-down {
+  padding: 40px;
+}
+
+/*Carrusel*/
+
+.carousel-control {
+  position: absolute;
+  top: 40%;
+  left: 15px;
+  width: 50px;
+  height: 40px;
+  font-size: 60px;  
+}
+
+.carousel-control.right {
+  left: auto;
+  right: 30px;
+}
+
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #337ab7;
+  text-decoration: none;
+  opacity: 0.5;
+  filter: alpha(opacity=90);
+}
+
+.item {
+  width: auto;
+  height: 500px;
+}
+
+/* Responsive Design*/
 @media (max-width: 768px) {
   
   .logo {
@@ -27,6 +65,16 @@ body {
   .navbar-down {
     padding: 0px;
     text-align: center;
+  }
+
+  .container {
+    margin-top: 80px;
+    background-color: white;
+  }
+
+  .item {
+    width: auto;
+    height: auto;
   }
 
 }

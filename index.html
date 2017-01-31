@@ -1,15 +1,16 @@
-<!DOCTYPE html>
-<html lang='es-es'>
+<!DOCTYPE html><link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet'>
+<html lang="es-es">
 <head>
-  <meta charset='utf-8' />
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta http-equiv='x-ua-compatible' content='ie=edge'>
   <title>Pagina Institucional - CEM</title>
   <meta name='Author' content='Ricardo Martin' />
   <meta name='copyright' content='© 2016 '>
   <meta name='date' content='Febrero, 2017' /> 
   <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet'>
-  <link href='css/estilo.css' rel='stylesheet'>  
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet'>
+  <link href='css/estilo.css' rel='stylesheet'>   
 </head>
 <body>
   <!-- Barra de navegacion del sitio -->
@@ -33,18 +34,54 @@
             <li><a href="#">Nuestro Colegio</a></li>
             <li><a href="#">Áreas</a></li>
             <li><a href="#">Contáctenos</a></li>
-            <li><a href="#"> <img class="logo-saberes" src="http://www.sistemasaberes.com/wp-content/uploads/2013/02/xSaberes_home_logo_260x90.png.pagespeed.ic.ugV18MKdn-.png" width='100'></a></li>
+            <li><a href="http://www.sistemasaberes.com/" target="black"> <img class="logo-saberes" src="http://www.sistemasaberes.com/wp-content/uploads/2013/02/xSaberes_home_logo_260x90.png.pagespeed.ic.ugV18MKdn-.png" width='100'></a></li>
           </ul>
         </div>
       </div>      
     </div>
   </nav>
 
-  <div class='container'>    
-    <div class="banner">
-      <p>sdsadksñdksañ</p>
-    </div> 
-  </div>
+  <!-- Carrusel -->
+  <div class='container'>
+    <div class='galeria'>
+      <div id='carrusel' class='carousel slide' data-ride='carousel'>
+        <ol class='carousel-indicators'>
+          <li data-target='#carrusel' data-slide-to='0' class='active'></li>
+          <li data-target='#carrusel' data-slide-to='1'></li>
+          <li data-target='#carrusel' data-slide-to='2'></li>
+          <li data-target='#carrusel' data-slide-to='3'></li>
+          <li data-target='#carrusel' data-slide-to='4'></li>
+        </ol>
+
+        <div class='carousel-inner'>
+         
+            <div class='item active'>
+              <img alt='foto_CEM' class='center-block' src='imagenes/col001.jpg'>
+            </div>
+
+            <div class='item'>
+              <img alt='foto_CEM' class='center-block' src='imagenes/col002.jpg'>
+            </div>
+
+            <div class='item'>
+              <img alt='foto_CEM' class='center-block' src='imagenes/col003.jpg'>
+            </div>
+
+            <div class='item'>
+              <img alt='foto_CEM' class='center-block' src='imagenes/col004.jpg'>
+            </div>
+
+            <div class='item'>
+              <img alt='foto_CEM' class='center-block' src='imagenes/col005.jpg'>
+            </div>
+            <!-- Controls -->
+            <a class="carousel-control left" href="#carrusel"  data-slide="prev"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a>
+            <a class="carousel-control right" href="#carrusel" data-slide="next"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+          </div>  
+
+      </div>  
+    </div>          
+  </div>  
 
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
   <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script> 
