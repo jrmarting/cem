@@ -2,19 +2,25 @@ body {
   font-size: 18px;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: #337ab7;
+  background-color:  #7f052a;  
   padding-top: 40px;
   padding-bottom: 20px;
+  font: verdana;
 }
+
+h1 {
+  font: bold 30px verdana, sans-serif;
+} 
 
 .logo {
   width: 120px;
   height: 120px;
 }
 
-.container {
+.cont-galeria {
   margin-top: 100px;
   background-color: white;
+  border-radius: 5px;
 }
 
 .navbar-down {
@@ -50,6 +56,33 @@ body {
   height: 500px;
 }
 
+.thumbnail {
+  margin-top: 10px;
+  color: #343643;
+}
+
+.fa-thumb-tack {
+  float: left;
+  font-size: 30px; 
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.titulos {
+  border-bottom: 2px solid #7f052a; 
+  text-transform: uppercase;
+  clear: left;
+}
+
+.titulos p {
+  font-size: 12px;
+}
+
+.informacion {
+  text-align: justify;
+  font-size: 15px;
+}
+
 /* Responsive Design*/
 @media (max-width: 768px) {
   
@@ -67,9 +100,10 @@ body {
     text-align: center;
   }
 
-  .container {
+  .cont-galeria {
     margin-top: 80px;
     background-color: white;
+    border-radius: 5px;
   }
 
   .item {
@@ -89,6 +123,14 @@ body {
   .carousel-control.right {
     left: auto;
     right: 15px;
+  }
+
+  .titulo{
+    font-size:16px;
+  }
+
+  p {
+    font-size: 10px;
   }
 
 }
