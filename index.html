@@ -1,5 +1,5 @@
-<!DOCTYPE html><link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet'>
-<html lang="es-es">
+<!DOCTYPE html>
+<html lang="es">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -10,7 +10,9 @@
   <meta name='date' content='Febrero, 2017' /> 
   <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet'>
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet'>
-  <link href='css/estilo.css' rel='stylesheet'>   
+  <link href='css/estilo.css' rel='stylesheet'>  
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="js/main.js"></script> 
 </head>
 <body>
   <!-- Barra de navegacion del sitio -->
@@ -31,8 +33,22 @@
         <div class="navbar-down">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#">Inicio</a></li>
-            <li><a href="#">Nuestro Colegio</a></li>
-            <li><a href="#">Áreas</a></li>
+            <li class="submenu"><a href="#">Nuestro Colegio  <span class="caret icon-arrow-down6"></span></a>
+              <ul class="compsubmenu">
+                <li><a href="">Submenu1</a></li>
+                <li><a href="">Submenu2</a></li>
+                <li><a href="">Submenu3</a></li>
+                <li><a href="">Submenu4</a></li>
+              </ul>
+            </li>
+            <li class="submenu"><a href="#">Áreas  <span class="caret icon-arrow-down6"></span></a>
+                <ul class="compsubmenu">
+                  <li><a href="">Submenu1</a></li>
+                  <li><a href="">Submenu2</a></li>
+                  <li><a href="">Submenu3</a></li>
+                  <li><a href="">Submenu4</a></li>
+                </ul>
+            </li>
             <li><a href="#">Contáctenos</a></li>
             <li><a href="http://www.sistemasaberes.com/" target="black"> <img class="logo-saberes" src="http://www.sistemasaberes.com/wp-content/uploads/2013/02/xSaberes_home_logo_260x90.png.pagespeed.ic.ugV18MKdn-.png" width='100'></a></li>
           </ul>
@@ -97,7 +113,7 @@
         </div>
         <div class='informacion'>
           <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
-          <a href="#">Leer mas.</a>
+          <a href="comunicado.html">Leer mas.</a>
         </div>
       </div>
 
@@ -151,8 +167,7 @@
     </div>
     <div class = 'row'> 
       <div class = 'autor col-sm-4 col-md-12'>
-        Derechos Reservados &copy; 2017 <br>
-        <p>Colegio Eucaristico Mercedario. Diseño Tecom JR.</p>
+        <p> Derechos Reservados &copy; 2017 <br>Colegio Eucaristico Mercedario. Diseño Tecom JR.</p>
       </div>
     </div>      
   </div>     
