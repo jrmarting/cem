@@ -156,6 +156,12 @@ ul li .compsubmenu li a:hover {
   font-weight: 10px
 }
 
+/*Google maps*/
+#google_map {
+  height: 400px;
+}
+
+
 /* Responsive Design*/
 @media (max-width: 768px) {
   
