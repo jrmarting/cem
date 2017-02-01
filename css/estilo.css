@@ -96,45 +96,14 @@ h1 {
   border-top: 2px solid #7f052a;
 }
 
-/* Submenus barra de navegacion*/
-/*
+/* Menu - Submenus barra de navegacion*/
+
+.navbar-default .navbar-nav>li>a:hover{
+  color: white;
+  font-weight: 10px;
+}
+
 ul, ol {
-  list-style:none;
-}
-
-.nav li a {
-  background-color:white;
-  color:#666666;
-  text-decoration:none;
-  padding:10px 12px;
-  display:block;
-}
-
-.nav li a:hover {
-  background-color:#D7D7D7;
-}
-
-.nav li ul {
-  display:none;
-  position:absolute;
-  min-width:140px;
-}
-
-.nav li:hover > ul {
-  display:block;
-}
-
-.nav li ul li {
-  position:relative;
-}
-
-.nav li ul li ul {
-  right:-20px;
-  top:0px;
-}
-*/
-
-ul {
   list-style:none;
 }
  
@@ -144,55 +113,47 @@ ul li {
 }
  
 ul li:hover {
-  background:#E6344A;
+  background-color:#7f052a;
+}
+
+li ul {
+  display:none;
+  position:absolute;
+  min-width:180px;
 }
  
 ul li a {
-  color:#fff;
+  color:#777;
   display:block;
   text-decoration:none;
-  padding: 20px;
-}
- 
-ul li a span {
-  margin-right:10px;
+  padding:10px 12px;
 }
  
 ul li:hover .compsubmenu {
   display:block;
+  color:white;
 }
  
 ul li .compsubmenu {
   display: none;
-  background:#011826;
+  background:white;
   position: absolute;
-  width: 150%;
-  z-index:1000;
+  width: 100%;
 }
  
 ul li .compsubmenu li {
   display:block;
-  overflow: hidden;
-  border-bottom: 1px solid rgba(255,255,255,.5);
+  overflow: hidden;;
 }
  
 ul li .compsubmenu li a {
   display: block;
+  text-decoration: none;  
 }
 
-ul li .compsubmenu li a span {
-  float: right;
-  position: relative;
-  top:3px;
-  margin-right:0;
-  margin-left:10px;
-}
-
-ul li .caret {
-  position: relative;
-  top:3px;
-  margin-left:10px;
-  margin-right:0px;
+ul li .compsubmenu li a:hover {
+  color: white;
+  font-weight: 10px
 }
 
 /* Responsive Design*/
@@ -258,6 +219,34 @@ ul li .caret {
   .contacto {
     padding: 10px;
     text-align: center;
+  }
+
+  /*Submenus*/
+
+  ul li {
+    display: block;
+    border-bottom:1px solid rgba(255,255,255,.5);
+  }
+ 
+  ul li a {
+    display: block;
+  }
+ 
+  ul li:hover .compsubmenu {
+    display: none;
+  }
+ 
+  ul li .compsubmenu {
+    width: 100%;
+    position: relative;
+  }
+ 
+  ul li .compsubmenu li a {
+    margin-left:20px;
+  }
+ 
+  ul li .caret {
+    float: right;
   }
 
 }
