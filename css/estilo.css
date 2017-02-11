@@ -166,6 +166,36 @@ ul li .compsubmenu li a:hover {
   height: 400px;
 }
 
+.cont-banner {
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 10px;   
+}
+
+.banner {
+  border-style: ridge;
+  border-radius: 10px; 
+  margin-bottom: 5px;
+  padding: 5px;  
+  line-height: 5px;
+  text-align: center;
+}
+
+.banner:hover { 
+  background-color: #D9587F;    
+  border: 2px solid #D9587F;
+  font-weight: bold;
+}
+
+.banner a { 
+  color: black;
+  text-decoration: none;
+}
+
+.boton-arriba {
+  background: blue;
+  border-radius: 50px;
+}
 
 /* Responsive Design*/
 @media (max-width: 768px) {
@@ -258,6 +288,10 @@ ul li .compsubmenu li a:hover {
  
   ul li .caret {
     float: right;
+  }
+
+  .cont-banner {
+    margin: 5px;     
   }
 
 }
