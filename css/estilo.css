@@ -193,8 +193,16 @@ ul li .compsubmenu li a:hover {
 }
 
 .boton-arriba {
-  background: blue;
-  border-radius: 50px;
+  font-size: 50px;
+  right: 50px;
+}
+
+.boton-arriba:hover,
+.boton-arriba:focus {
+  color: #337ab7;
+  text-decoration: none;
+  opacity: 0.5;
+  filter: alpha(opacity=90);
 }
 
 /* Responsive Design*/
