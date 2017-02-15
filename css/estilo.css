@@ -6,6 +6,7 @@ body {
   padding-top: 40px;
   padding-bottom: 20px;
   font: verdana;
+  position: relative;
 }
 
 h1 {
@@ -18,7 +19,6 @@ h1 {
 }
 
 .cont-galeria {
-  margin-top: 100px;
   background-color: white;
   border-radius: 5px;
   position: relative;
