@@ -6,7 +6,6 @@ body {
   padding-top: 40px;
   padding-bottom: 20px;
   font: verdana;
-  position: relative;
 }
 
 h1 {
@@ -22,10 +21,12 @@ h1 {
   background-color: white;
   border-radius: 5px;
   position: relative;
+  top: 80px;
+  margin-bottom: 100px
 }
 
 .navbar-down {
-  padding: 40px;
+  padding: 50px;
 }
 
 /*Carrusel*/
@@ -75,18 +76,21 @@ h1 {
   clear: left;
 }
 
-.titulos p {
-  font-size: 12px;
-}
-
 .parrafos {
   padding: 20px;
   text-align: justify;
 }
 
+.date_publish {
+    font-size: 12px;
+    text-transform: lowercase;
+    color: #AFAFAF;  
+    padding-left: 30px;  
+}
+
 .informacion {
   text-align: justify;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .footer img {
@@ -164,7 +168,7 @@ ul li .compsubmenu li a:hover {
 
 /*Google maps*/
 #google_map {
-  height: 400px;
+  height: 500px;
 }
 
 .cont-banner {
@@ -191,11 +195,6 @@ ul li .compsubmenu li a:hover {
 .banner a { 
   color: black;
   text-decoration: none;
-}
-
-.boton-arriba {
-  font-size: 50px;
-  right: 50px;
 }
 
 .boton-arriba:hover,
@@ -313,7 +312,6 @@ button.submit:active {
   }
 
   .cont-galeria {
-    margin-top: 80px;
     background-color: white;
     border-radius: 5px;
   }
@@ -337,16 +335,23 @@ button.submit:active {
     right: 15px;
   }
 
-  .titulo{
-    font-size:16px;
+  .titulos{
+    font-size:14px;
+    text-align: center;
   }
 
   p {
+    font-size: 14px;
+  }
+
+  .date_publish {
     font-size: 10px;
+    text-transform: lowercase;
+    color: #AFAFAF;
   }
 
   .indicador {
-    font-size: 15px;
+    font-size: 30px;
   }
 
   .footer img {
